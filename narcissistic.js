@@ -162,3 +162,4 @@ function baseReduce() {
 function baseReduce2() {
     return Array.from({length:10}, (()=> Math.floor(Math.random() * 10))).reduce((p, c) => p.replace("x", c), "+(xxx) xxx-xxxx");
 }
+
